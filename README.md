@@ -1,4 +1,30 @@
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app) 
+You can follow CRA's official and detailed information down below. 
+
+## In order to run this project please follow the following: 
+
+* json-server is used in this project to serve as a database which is easy 
+and fast to set up. To run this server please navigate into the `server` folder 
+in your terminal of choice and type the command of `npm start`. 
+This terminal window also serves as your visual indication of actions being committed 
+on the front-end, specified by REST action, the url in which the action was made in
+the action's status code and the time it took. 
+
+json-server is available at port 3001. 
+
+Note: you can view json-server's db by checking out the file `db.json`, where
+you can keep tabs of actions you've done over at the front-end. 
+
+* Once the server's up and running, please open a separate terminal window and navigate
+back to the root of this project's file tree. There please run `npm start` to start up 
+the app on port 3000. 
+
+## This project makes use of 
+* React
+* Redux
+* thunk
+* json-server 
+
 
 Below you will find some information on how to perform common tasks.<br>
 You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
