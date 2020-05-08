@@ -1,0 +1,11 @@
+.truncate {
+    width: 230px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+}

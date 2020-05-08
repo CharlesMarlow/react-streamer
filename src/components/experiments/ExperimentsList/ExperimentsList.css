@@ -1,0 +1,28 @@
+.wrapper {
+    padding-bottom: 5vh;
+}
+
+.pagination-wrapper {
+    margin-top: 2vh;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.actions-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sort-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 2vh;
+    margin-right: 0.25vw;
+}
+
+.sort-order-wrapper {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-left: 0.25vw;
+}

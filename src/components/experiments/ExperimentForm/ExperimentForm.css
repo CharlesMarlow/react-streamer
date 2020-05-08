@@ -1,0 +1,26 @@
+.input {
+    width: 14vw !important;
+}
+
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-wrapper>.inputs {
+    display: flex;
+    justify-content: center;
+}
+
+.form-wrapper>.inputs>label {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-right: 0.25vw;
+}
+
+.form-wrapper>.actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1.5vh;
+}

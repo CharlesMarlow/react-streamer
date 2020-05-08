@@ -1,14 +1,12 @@
 #!/bin/bash
-echo 'Starting up json-server'
 
-cd server
+# Execute json-server
 npm install
-npm start &
+echo 'Starting up json-server'
+npm run serve &
 
-sleep 1s
+sleep 3s
 
 echo 'Starting up app'
-cd ../
-# execute React app
-npm install
+# Execute React app
 npm start
