@@ -1,16 +1,10 @@
 {
-  "name": "experiments",
+  "name": "twitch-streamer",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "axios": "^0.19.0",
-    "chai": "^4.2.0",
-    "express": "^4.17.1",
-    "formik": "^2.1.4",
-    "json-server": "^0.16.1",
     "lodash": "^4.17.15",
-    "mocha": "^7.1.2",
-    "nyc": "^15.0.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-redux": "^7.1.0",
@@ -18,17 +12,10 @@
     "react-scripts": "0.9.x",
     "redux": "^4.0.4",
     "redux-form": "^8.1.0",
-    "redux-thunk": "^2.3.0",
-    "semantic-ui-css": "^2.4.1",
-    "semantic-ui-react": "^0.88.2",
-    "should": "^13.2.3",
-    "sinon": "^9.0.2"
+    "redux-thunk": "^2.3.0"
   },
-  "devDependencies": {
-    "jsdom": "^16.2.2"
-  },
+  "devDependencies": {},
   "scripts": {
-    "serve": "json-server -p 3001 -w db.json",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
